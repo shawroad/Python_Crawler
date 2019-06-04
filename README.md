@@ -1,2 +1,2 @@
 # Python_Crawler
-python爬虫实践总结
+python爬虫, 主要学习了requests, scrapy, pyspider等爬虫库。这里是一些实际的案例。
