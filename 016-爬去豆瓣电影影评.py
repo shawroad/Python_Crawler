@@ -138,7 +138,6 @@ if __name__ == '__main__':
 
     # 第二步:爬取电影对应的id  有点问题
     sign = True   # 是否去爬id
-
     if sign:
         id_list = crawl_id()
     else:
@@ -149,6 +148,7 @@ if __name__ == '__main__':
                 line = line.strip()
                 id_list.append(line)
 
+    
     # 第三步:根据id爬去对应的影评
     i = 1
     for id in id_list:
