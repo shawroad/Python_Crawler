@@ -29,13 +29,13 @@ def sign_in():
     global headers
     url = 'https://accounts.douban.com/j/mobile/login/basic'
     data = {
-        'name': "18392991940",
-        "password": "xl865399807",
+        'name': "**********",
+        "password": "***********",
         "remember": "false"
     }
     r = s.post(url, headers=headers, data=data, verify=False)
 
-    if '街头那一缕阳光' in r.text:
+    if 'your name' in r.text:
         print('登录成功')
     else:
         print('登录失败')
